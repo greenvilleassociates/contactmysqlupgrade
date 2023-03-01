@@ -1,3 +1,10 @@
+This is kind of a cool Database post from PHP to Mysql which works in a few minutes (assuming you can create a working login in mysql on your platform of choice).
+On Cpanel systems this takes just a few seconds, or from MySQL workbench which is pretty fancy but takes more administrative skill.
+
+This is a Business Contact Page which adds about 8 new fields to the original which is in the link below(which also works well). Its a working mod/fork
+from the original, which can be customized with your own logo in about 10 seconds.
+
+COMMENTS ON THIS TOOL.
 Another Developer created an HTML page which did a form post call to a PHP insert.
 We have done similar things with ColdFusion which is a bit more sophisticated because it hides the connection string from the main file.
 This is a very low security configuration as if anyone can execute the PHP they also have the connection string. As such the Insert but not delete
