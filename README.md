@@ -11,6 +11,8 @@ This is a very low security configuration as if anyone can execute the PHP they 
 permissions should be set on mysql. In other words the user and password should only have the right to insert records but not delete them. And it should
 have a password which cant be typed in less than 10 seconds.
 
+We have added a few pictures showing what the "CONTACTUSER LOGIN" permissions should have, and given a picture of what a cPanel/Siteground login would look like.
+
 
 # contactmysqlupgrade
 This adds a longer contact form for existing project created on this site.
