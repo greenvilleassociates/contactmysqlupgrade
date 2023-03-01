@@ -1,3 +1,10 @@
+Another Developer created an HTML page which did a form post call to a PHP insert.
+We have done similar things with ColdFusion which is a bit more sophisticated because it hides the connection string from the main file.
+This is a very low security configuration as if anyone can execute the PHP they also have the connection string. As such the Insert but not delete
+permissions should be set on mysql. In other words the user and password should only have the right to insert records but not delete them. And it should
+have a password which cant be typed in less than 10 seconds.
+
+
 # contactmysqlupgrade
 This adds a longer contact form for existing project created on this site.
 https://github.com/wdraghwendra/phpmysql/tree/master/contact
